@@ -5,9 +5,9 @@ pandas
 xlutils
 tabulate
 xlwt
-torch
+torch==1.11.0
 tensorboard
 matplotlib
-numpy
+numpy==1.21.6
 scikit_learn
 sktime==0.4.1
