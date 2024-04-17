@@ -205,7 +205,7 @@ def validate(val_evaluator, tensorboard_writer, config, best_metrics, best_value
     print()
     print_str = 'Epoch {} Validation Summary: '.format(epoch)
     for k, v in aggr_metrics.items():
-        tensorboard_writer.add_scalar('{}/val'.format(k), v, epoch)
+#         tensorboard_writer.add_scalar('{}/val'.format(k), v, epoch)
         print_str += '{}: {:8f} | '.format(k, v)
     logger.info(print_str)
 
